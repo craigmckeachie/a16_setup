@@ -45,8 +45,6 @@
       - https://www.jetbrains.com/webstorm/download
       - It comes with a free 30-day trial
 
-      * >
-
     - IntelliJ IDEA Ultimate (is another alternative to Visual Studio Code) and is available from
       - https://www.jetbrains.com/idea/download/
       - WebStorm is made by the company Jetbrains who also makes IntelliJ IDEA.
@@ -57,9 +55,9 @@
 
     - Any Node version 16.14.0 or later is fine for this class, but Long-Term Support (LTS) versions are preferred, so we recommend using a 16.14.0 or later LTS version.
     - Please visit https://nodejs.org/ , and click the “18.16.1 LTS” (or similar) button below the “Download for [your operating system]” heading to download the installer file.
-    <!-- - Please install the appropriate version of npm version 16 for your OS provided here: -->
+      <!-- - Please install the appropriate version of npm version 16 for your OS provided here: -->
 
-      <!-- - https://nodejs.org/download/release/v16.10.0/ -->
+        <!-- - https://nodejs.org/download/release/v16.10.0/ -->
 
       - Run the installer, accepting all default settings.
 
