@@ -2,8 +2,8 @@
 
 1. On the bottom left of VS Code > click the `Gear Icon`
 2. Choose `Command Palette..`
-3. Type `open settings`
-4. Choose `Open Settings.JSON`
+3. Type `open user settings`
+4. Choose `Open User Settings.JSON`
 5. Paste the settings below into the `USER SETTINGS` section on the **right side** of the screen.
    - The left side is not editable.
 
