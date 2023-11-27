@@ -54,14 +54,15 @@
 4.  Node.js installed, **Version 16.14.x or 18.10.x (or later version)**
 
     - Any Node version 16.14.0 or later is fine for this class, but Long-Term Support (LTS) versions are preferred, so we recommend using a 16.14.0 or later LTS version.
-    - Please visit https://nodejs.org/ , and click the “18.16.1 LTS” (or similar) button below the “Download for [your operating system]” heading to download the installer file.
-      <!-- - Please install the appropriate version of npm version 16 for your OS provided here: -->
+    <!-- - Please visit https://nodejs.org/ , and click the “18.16.1 LTS” (or similar) button below the “Download for [your operating system]” heading to download the installer file. -->
+      - Please install the appropriate version of npm version 16 for your OS provided here:
 
-        <!-- - https://nodejs.org/download/release/v16.10.0/ -->
+         - https://nodejs.org/download/release/v18.18.2/ 
+         - The x64 .msi works best for Windows or .pkg for MacOS
 
       - Run the installer, accepting all default settings.
 
-        > Angular version 16 does not support Node versions earlier than `16.14.0`. For more information see the [Angular CLI, Angular, Node.js, TypeScript, and RxJS compatibility matrix](https://angular.io/guide/versions).
+        > Angular version 16 does not support Node versions earlier than `16.14.0` or after `18.x.x` ...  `20.x.x` which has been released does not support Angular 16). For more information see the [Angular CLI, Angular, Node.js, TypeScript, and RxJS compatibility matrix](https://angular.io/guide/versions).
 
     - After installation, please confirm that the Path environment variable on your computer has been modified to include the path for node and npm:
     - In a Mac Terminal prompt or a Windows command prompt (in Windows 10, click the Start button and type `cmd`), run the commands:
