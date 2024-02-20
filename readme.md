@@ -51,14 +51,14 @@
       - It also contains the same editing features as WebStorm, and it has a similar free 30-day trial, so that is another possible option for class.
       - However, please note that the free IntelliJ IDEA Community Edition does NOT have the same level of support for JavaScript, TypeScript, and Angular, so anyone who plans to use IntelliJ in this class should have the Ultimate edition.
 
-4.  Node.js installed, **Version 16.14.x or 18.10.x (or a later version 18 such as 18.16.1 LTS)**
+4.  Node.js installed, **Version 16.14.x or 18.1x.x (or a later version 18 such as 18.19.1 LTS)**
 
     - Angular version 16 is used in the course and does not support Node versions earlier than `16.14.0` or after `18.x.x`. More specifically,  `20.x.x` Node.js versions are not supported. 
     - For more information see the [Angular CLI, Angular, Node.js, TypeScript, and RxJS compatibility matrix](https://angular.io/guide/versions).
     <!-- - Please visit https://nodejs.org/ , and click the “18.16.1 LTS” (or similar) button below the “Download for [your operating system]” heading to download the installer file. -->
       - Please install the appropriate version of npm version 18 for your OS provided here:
 
-         - https://nodejs.org/download/release/v18.18.2/ 
+         - https://nodejs.org/download/release/v18.19.1/
          - The x64 .msi works best for Windows or .pkg for MacOS
 
       - Run the installer, accepting all default settings.
@@ -97,7 +97,7 @@
       - You should have version `16.x.x` of the Angular CLI for the course. Note that older versions of the Angular CLI work with older versions of Angular but not Angular 16 used in this course.
       - If you have a previous version of the Angular CLI use the following command to update it:
       ```shell
-      npm update -g @angular/cli
+      npm update -g @angular/cli@16
       ```
 
 6)  Create a new project with the Angular CLI
