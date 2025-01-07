@@ -51,22 +51,18 @@
       - It also contains the same editing features as WebStorm, and it has a similar free 30-day trial, so that is another possible option for class.
       - However, please note that the free IntelliJ IDEA Community Edition does NOT have the same level of support for JavaScript, TypeScript, and Angular, so anyone who plans to use IntelliJ in this class should have the Ultimate edition.
 
-4.  Node.js installed, **Version 16.14.x or 18.1x.x (or a later version 18 such as 18.19.1 LTS)**
+4.  Node.js installed, **Version 18.19.1**
 
-    - Angular version 16 is used in the course and does not support Node versions earlier than `16.14.0` or after `18.x.x`. More specifically,  `20.x.x` Node.js versions are not supported. 
-    - For more information see the [Angular CLI, Angular, Node.js, TypeScript, and RxJS compatibility matrix](https://angular.io/guide/versions).
-    <!-- - Please visit https://nodejs.org/ , and click the “18.16.1 LTS” (or similar) button below the “Download for [your operating system]” heading to download the installer file. -->
-      - Please install the appropriate version of npm version 18 for your OS provided here:
+    - [Download the Windows installer for Node.js 18.19.1 here](https://nodejs.org/download/release/v18.19.1/node-v18.19.1-x64.msi).
+    - [Download the MacOS installer for Node.js 18.19.1 here](https://nodejs.org/download/release/v18.19.1/node-v18.19.1.pkg).
+    - After installation, please confirm that the Path environment variable on your computer has been modified to include the path for node and npm:
 
-         - https://nodejs.org/download/release/v18.19.1/
-         - The x64 .msi works best for Windows or .pkg for MacOS
-
+      - Angular version 16 is used in the course and does not support Node versions earlier than `16.14.0` or after `18.x.x`. More specifically, `20.x.x` Node.js versions are not supported.
+      - For more information see the [Angular CLI, Angular, Node.js, TypeScript, and RxJS compatibility matrix](https://angular.io/guide/versions).
+      <!-- - Please visit https://nodejs.org/ , and click the “18.16.1 LTS” (or similar) button below the “Download for [your operating system]” heading to download the installer file. -->
       - Run the installer, accepting all default settings.
 
-  
-
-    - After installation, please confirm that the Path environment variable on your computer has been modified to include the path for node and npm:
-    - In a Mac Terminal prompt or a Windows command prompt (in Windows 10, click the Start button and type `cmd`), run the commands:
+    - Confirm the installation was successful. In a Mac Terminal prompt or a Windows command prompt (in Windows 10, click the Start button and type `cmd`), run the commands:
       ```
       node -v
       npm -v
@@ -89,18 +85,22 @@
 
     In a Mac Terminal prompt or a Windows command prompt, please run this command:
 
+    > The @16 in the following command is important. For this course we need to use that specific version.
+
     ```
     npm install -g @angular/cli@16
     ```
 
     - The installation may produce some warnings, but it should not have any errors. After running the install command, you can confirm a successful installation by running the command “ng v” (this should report the version of Angular CLI that’s installed).
+
       - You should have version `16.x.x` of the Angular CLI for the course. Note that older versions of the Angular CLI work with older versions of Angular but not Angular 16 used in this course.
       - If you have a previous version of the Angular CLI use the following command to update it:
+
       ```shell
       npm update -g @angular/cli@16
       ```
 
-6)  Create a new project with the Angular CLI
+6.  Create a new project with the Angular CLI
 
     - Create an empty directory named ngverify on your machine in a location where you have permissions to create and edit files (for example, `c:\ngverify` OR `c:\users\[username]\Documents\ngverify`)
     - In the Administrator command prompt from the previous step, change the current directory to ngverify
@@ -129,12 +129,12 @@
 
     - Close your browser tab and the command prompt.
 
-7)  Internet access for all attendees and the instructor is required.
-8)  You will need to have a **Git client** installed. To verify it is installed open a terminal or command-prompt and run the command:
+7.  Internet access for all attendees and the instructor is required.
+8.  You will need to have a **Git client** installed. To verify it is installed open a terminal or command-prompt and run the command:
     ```
     git --version
     ```
     - Any version should work.
     - Here is a link to a [page describing the process for installing the git client](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) if you need to install it.
 
-8.  Your computer is now ready for class – you may exit from the Terminal / command prompt and any other programs that you were using in the setup.
+9)  Your computer is now ready for class – you may exit from the Terminal / command prompt and any other programs that you were using in the setup.
